@@ -30,3 +30,7 @@ Esta práctica consistió en compilación de los "notebooks" "barchart" y "api-p
 ## Práctica 4
 
 La práctica cuatro ha sido la penúltima realizada en el curso. En esta se puede ver el notebook realizado a través de Jupyter aplicando lo aprendido en las clases, actualizando los conocimientos y las prácticas de la asignatura de Periodismo de Datos. Para realizar la tarea debíamos escoger unos datos de un portal web de datos abiertos, en mi caso escogí el portal web datos.gob.es, una iniciativa de datos abiertos del Gobierno de España. Al igual que en la práctica 3, en esta debíamos realizar un archivo denominado [practica-4.md](https://github.com/Pontedatos/IreneAcosta/blob/master/practica-4.md) en se detalla lo realizado, los enlaces a las webs de donde se han obtenido los datos y la explicación del desarrollo de los mismos. 
+
+## Trabajos de recopilación final 
+
+- [Metodología de la práctica final](https://github.com/Pontedatos/IreneAcosta/blob/master/metodologia.md) 
