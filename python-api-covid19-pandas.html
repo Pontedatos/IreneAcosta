@@ -13089,8 +13089,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>API como una especificación formal que se establece cómo un módulo de un software, es decir, se comunica o interactúa con otro para cumplir una o muchas funciones. En este práctica se hará uso de la librería de código abierto de Python, pandas, es un conjunto de herramientas especializada en el manejo y análisis de estructura de datos.</p>
-<p>La URL: <a href="https://api.covid19api.com/countries">https://api.covid19api.com/countries</a></p>
+<p>API como una especificación formal que se establece cómo un módulo de un software, es decir, se comunica o interactúa con otro para cumplir una o muchas funciones. En este práctica se hará uso de la librería de código abierto de Python, <strong>pandas</strong>, que es una librería de código abierto con la que podemos analizar datos desde diferentes tipos de archivos (html, json, csv...), los modemos manipular y cargar en nuestro notebook de Jupyter.</p>
+<p>La URL que vamos a utilizar para importar nuestros datos es la siguiente: <a href="https://api.covid19api.com/countries">https://api.covid19api.com/countries</a></p>
 
 </div>
 </div>
@@ -13098,7 +13098,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Instalar-pandas">Instalar pandas<a class="anchor-link" href="#Instalar-pandas">&#182;</a></h2><p>A continuación procederemos a instalar pandas. Cabe destacar en este apartado que al emplear un signo de exclamación de cierre al principio de la instalación significa que no estamos ejecutando Python, sino bash.</p>
+<h2 id="Instalar-pandas">Instalar pandas<a class="anchor-link" href="#Instalar-pandas">&#182;</a></h2><p>A continuación procederemos a instalar pandas a través de: <code>!pip install pandas</code>. Cabe destacar en este apartado debemos emplear un signo de exclamación de cierre al principio de la instalación para informar que no estamos ejecutando Python, sino bash (que es otra librería de visualización de adtos de los lenguajes de programación).</p>
 
 </div>
 </div>
@@ -13141,7 +13141,7 @@ Requirement already satisfied: six&gt;=1.5 in /usr/lib/python3/dist-packages (fr
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Configuraci&#243;n-de-pandas">Configuraci&#243;n de pandas<a class="anchor-link" href="#Configuraci&#243;n-de-pandas">&#182;</a></h2><p>En la configuración de la libraria pandas se usa la convención de pandas como pd:</p>
+<h2 id="Configuraci&#243;n-de-pandas">Configuraci&#243;n de pandas<a class="anchor-link" href="#Configuraci&#243;n-de-pandas">&#182;</a></h2><p>En la configuración de la librería pandas se usa la convención de pandas como <code>pd</code>:</p>
 
 </div>
 </div>
@@ -13169,10 +13169,7 @@ Requirement already satisfied: six&gt;=1.5 in /usr/lib/python3/dist-packages (fr
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Se asignan con el igual (=) y se escriben entre comillas (' ') porque es una cadena de caracteres, string.</p>
-<ul>
-<li>Lo que hacemos en este apartado es básicamente definir la variable URL y que Python vea lo que es.</li>
-</ul>
+<p>Se asignan con el igual <code>=</code> y se escriben entre comillas <code>' '</code> porque es una cadena de caracteres, lo que se denomina string. Lo que hacemos en este apartado es básicamente definir la variable URL.</p>
 
 </div>
 </div>
@@ -13200,9 +13197,7 @@ Requirement already satisfied: six&gt;=1.5 in /usr/lib/python3/dist-packages (fr
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Aquí directamente hemos creado un Dataframe con df y si lo ponemos ahora en la siguiente creamos una tabla poniendo.</p>
-<p>Lo que hace es utilizar pandas, porque como hemos visto al pricipio hemos puesto importa pandas como pd y por ello no lo llamamos pandas sino porque lo hemos dicho antes así. De pandas hay una función que se llama 'read jason' y lo que hace efectivamente es leer un json y dentro de esta función el valor que queremos que lea. Y, ¿qué queremos que lea? pues efectivamente la hemos creado con anterioridad</p>
-<p>En resumen, lo que hemos hecho ha sido crear un Dataframe, una tabla, que lee efectivamente este json</p>
+<p>Se define DataFrame a través de <code>df</code>, se trata de una herramienta por la cual podemos podemos organizar y almacenar una estructura de datos. Del mismo modo con anterioridad hemos importado la biblioteca ya instalada pandasa través de la convección <code>pd</code>. En pandas hay una función que se denomina como <code>pd.read_json(url)</code> y lo que hace efectivamente es leer los datos que se encuentran dentro de un archivo json.</p>
 
 </div>
 </div>
@@ -13348,7 +13343,7 @@ Requirement already satisfied: six&gt;=1.5 in /usr/lib/python3/dist-packages (fr
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Lo que vemos aquí es una tabla, un dataframen de python, que viene de unos datos desde una URL de json.</p>
+<p>Lo que vemos aquí es una tabla, un DataFrame de Python, que viene de unos datos de un archivo de json desde una URL.</p>
 
 </div>
 </div>
@@ -13363,7 +13358,7 @@ Requirement already satisfied: six&gt;=1.5 in /usr/lib/python3/dist-packages (fr
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Al dataframe le aplicamos diferentes funciones que se hacen poniendo df.head / tail etc. Además, para poner más cosas y ver que podemos hacer podemos consultar en la ayuda dando al tabulador en los paréntesis. Se pone entreparéntesis la cantidad de, en este caso países, que queremos ver.</p>
+<p>Al DataFrame le aplicamos diferentes funciones que se hacen poniendo <code>df.head</code> <code>df.ail</code> etc. Además, para poner más cosas y ver que podemos hacer podemos consultar en la ayuda dando al tabulador en los paréntesis. Se pone entreparéntesis la cantidad de, en este caso países, que queremos ver.</p>
 
 </div>
 </div>
@@ -13371,9 +13366,7 @@ Requirement already satisfied: six&gt;=1.5 in /usr/lib/python3/dist-packages (fr
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><strong>Df.head</strong> = se usa esta función para ver la cabecera en parénteis escogemos el número que queremos. </li>
-</ul>
+<p><code>Df.head</code> = se usa esta función para ver la cabecera en parénteis escogemos el número que queremos.</p>
 
 </div>
 </div>
@@ -13475,9 +13468,7 @@ Requirement already satisfied: six&gt;=1.5 in /usr/lib/python3/dist-packages (fr
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><strong>Df.head</strong> = se usa esta función para ver la cola o los últimos del listado. De nuevo en parénteis escogemos el número que queremos ver. </li>
-</ul>
+<p><code>Df.tail</code> = se usa esta función para ver la cola o los últimos del listado. De nuevo en parénteis escogemos el número que queremos ver.</p>
 
 </div>
 </div>
@@ -13555,9 +13546,7 @@ Requirement already satisfied: six&gt;=1.5 in /usr/lib/python3/dist-packages (fr
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><strong>Df.info</strong> = nos da información sobre el dataframe</li>
-</ul>
+<p><code>Df.info</code> = nos da información sobre el dataframe</p>
 
 </div>
 </div>
@@ -13605,9 +13594,7 @@ memory usage: 5.9+ KB
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>A continuación ponemos df[ ] esto es así porque queremos <strong>ver solo una de las columnas</strong>, utilizaremos esta función entrecorchetes y entre comillas dentro el nombre de la columna en cuestión. </li>
-</ul>
+<p>A continuación ponemos <code>df[ ]</code> esto es así porque queremos <strong>ver solo una de las columnas</strong>, utilizaremos esta función entrecorchetes y entre comillas dentro el nombre de la columna en cuestión.</p>
 
 </div>
 </div>
@@ -13710,10 +13697,7 @@ Name: Country, Length: 248, dtype: object</pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>La URL: <a href="https://api.covid19api.com/country/spain/status/confirmed/live">https://api.covid19api.com/country/spain/status/confirmed/live</a></p>
-<p>Lo nombramos así para crear una nueva URL porque se puede.No podría nombrarlo con guion medio que es un caracter reservado que significa menos. Por ello lo denominamos 'url_es'porque cambiamos el país en este caso.</p>
-<ul>
-<li>En este caso lo hemos ejecutado todo a la vez, definiendo cada cosa: </li>
-</ul>
+<p>Lo nombramos así para crear una nueva URL porque se puede.No podría nombrarlo con guion medio que es un caracter reservado que significa menos. Por ello lo denominamos <code>url_es</code> porque cambiamos el país en este caso. En este caso lo hemos ejecutado todo a la vez, definiendo cada cosa:</p>
 
 </div>
 </div>
@@ -13932,10 +13916,7 @@ Name: Country, Length: 248, dtype: object</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Explorar">Explorar<a class="anchor-link" href="#Explorar">&#182;</a></h2><ul>
-<li>¿Como podríamos saber cual es el día de inicio y cual es el día del fin?</li>
-<li>Ponemos uno porque es lo que queremos solo uno y el primero o el último</li>
-</ul>
+<h2 id="Explorar">Explorar<a class="anchor-link" href="#Explorar">&#182;</a></h2><p>¿Como podríamos saber cual es el día de inicio y cual es el día del fin?. Lo primero es pedir información sobre las columnas y lo que podemos saber de los datos a través de la función <code>df_es.columns</code>.</p>
 
 </div>
 </div>
@@ -14093,9 +14074,7 @@ memory usage: 62.9+ KB
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>Dtypes: tipos de datos y nos dice la cantidad de datos, entonces como hay valores numéricos, vamos a emplear también otra función que es la de describe que se usa sobre todo para valores numéricos =</li>
-</ul>
+<p>Dtypes son tipos de datos y nos dice la cantidad de datos, entonces como hay valores numéricos, vamos a emplear también otra función que es la de describe que se usa sobre todo para valores numéricos.</p>
 
 </div>
 </div>
@@ -14640,10 +14619,7 @@ memory usage: 62.9+ KB
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>Al hacer esto, "Date" se traslada al índice. Es decir, la columna de fecha se convierte en la columna que queríamos que fuera el índice.</li>
-</ul>
-<p>No obstante, necesitamos una <strong>tabla con dos columnas</strong> para poder hacer el gráfico y en la que se reflejen los casos confirmados. Por ello haremos una nueva celda a través de la siguiente función:</p>
+<p>Al hacer esto, <code>Date</code> se traslada al índice. Es decir, la columna de fecha se convierte en la columna que queríamos que fuera el índice. No obstante, necesitamos una <strong>tabla con dos columnas</strong> para poder hacer el gráfico y en la que se reflejen los casos confirmados. Por ello haremos una nueva celda a través de la siguiente función:</p>
 
 </div>
 </div>
@@ -14704,10 +14680,7 @@ Name: Cases, Length: 803, dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Crear-una-gr&#225;fico">Crear una gr&#225;fico<a class="anchor-link" href="#Crear-una-gr&#225;fico">&#182;</a></h3><p>Hemos creado un gráfico con la función plot que es <em>píntamelo</em> con la que podremos visualizar el gráfico.</p>
-<ul>
-<li>Como vemos tras plot aplicamos entre paréntesis la función tittle con la que podemos nombrar el gráfico:</li>
-</ul>
+<h3 id="Crear-una-gr&#225;fico">Crear una gr&#225;fico<a class="anchor-link" href="#Crear-una-gr&#225;fico">&#182;</a></h3><p>Hemos creado un gráfico con la función <code>plot</code> que es <em>píntamelo</em> con la que podremos visualizar el gráfico. Como vemos tras <code>plot</code> aplicamos entre paréntesis la función tittle con la que podemos nombrar el gráfico:</p>
 
 </div>
 </div>
@@ -14937,7 +14910,7 @@ Es importante recordar en este apartado que los valores nulos no son valores que
 <p>Compararemos estos tres países en un solo gráfico</p>
 <ul>
 <li>Vamos a concatenar estos dataframe que tienen la misma estructura</li>
-<li>Ahora solamente poniendo casos_es nos pone todo esto que antes ocupaba mucho más</li>
+<li>Ahora solamente poniendo <code>casos_es</code> nos pone todo esto que antes ocupaba mucho más</li>
 </ul>
 
 </div>
@@ -15006,7 +14979,7 @@ Name: Cases, Length: 803, dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Concatenar-los-datos">Concatenar los datos<a class="anchor-link" href="#Concatenar-los-datos">&#182;</a></h2><p>Vamos a utilizar ahora la función concaternar (pd.concat), y dentro de la función concat ponemos una serie donde están los casos. Esto es importante: se debe hacer en el eje 1 (axis=1)</p>
+<h2 id="Concatenar-los-datos">Concatenar los datos<a class="anchor-link" href="#Concatenar-los-datos">&#182;</a></h2><p>Vamos a utilizar ahora la función concaternar <code>pd.concat</code>, y dentro de la función concat ponemos una serie donde están los casos. Esto es importante: se debe hacer en el eje 1 (<code>axis=1</code>)</p>
 
 </div>
 </div>
@@ -15145,10 +15118,7 @@ Name: Cases, Length: 803, dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="VS-es-como-definimos-este-dataframe">VS es como definimos este dataframe<a class="anchor-link" href="#VS-es-como-definimos-este-dataframe">&#182;</a></h2><p>En el antiguo caso se concatena lo que ya vemos, pero si queremos crearlo ponemos <em>algo es igual a algo</em> (=) y podemos poner después versus, comparación etc.</p>
-<ul>
-<li>Se puede poner lo que sea, en el caso del inicio el import pandas pd si que teníamos que ponerlo así, pero en este caso no es necesario. Si llamamos a esta selección o concatenación nos sale el resultado, pero aquí estamos a esta selección llamándola "vs",  por eso como se ve abajo no se cambia nada después, solamente lo hemos creado con un nombre. En conclusión, VS es como definimos este dataframe</li>
-</ul>
+<h2 id="VS-es-como-definimos-este-dataframe">VS es como definimos este dataframe<a class="anchor-link" href="#VS-es-como-definimos-este-dataframe">&#182;</a></h2><p>En el antiguo caso se concatena lo que ya vemos, pero si queremos crearlo ponemos <em>algo es igual a algo</em> (<code>=</code>) y podemos poner después versus, comparación etc. Se puede poner lo que sea, en el caso del inicio el import pandas pd si que teníamos que ponerlo así, pero en este caso no es necesario. Si llamamos a esta selección o concatenación nos sale el resultado, pero aquí estamos a esta selección llamándola <code>vs</code>,  por eso como se ve abajo no se cambia nada después, solamente lo hemos creado con un nombre. En conclusión, <code>VS</code> es como definimos este dataframe</p>
 
 </div>
 </div>
@@ -15444,10 +15414,9 @@ Name: Cases, Length: 803, dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Creamos-el-gr&#225;fico">Creamos el gr&#225;fico<a class="anchor-link" href="#Creamos-el-gr&#225;fico">&#182;</a></h2><p>De nuevo volvemos a crear un gráfico a través de la función plot y con la función tittle denominamos el gráfico.</p>
-<ul>
-<li>RECORDAMOS: Cabe señalar en este punto que vs.plot nos da los datos de los tres países porque hemos denominado con antelación que vs sea la concatenación de los datos de los tres países (vs = pd.concat([casos_es,casos_it,casos_mx], axis=1) </li>
-</ul>
+<h2 id="Creamos-el-gr&#225;fico">Creamos el gr&#225;fico<a class="anchor-link" href="#Creamos-el-gr&#225;fico">&#182;</a></h2><p>De nuevo volvemos a crear un gráfico a través de la función <code>plot</code> y con la función <code>vs.plot(title="")</code> denominamos el gráfico.</p>
+<blockquote><p>RECORDAMOS: Cabe señalar en este punto que vs.plot nos da los datos de los tres países porque hemos denominado con antelación que vs sea la concatenación de los datos de los tres países <code>vs = pd.concat([casos_es,casos_it,casos_mx], axis=1)</code></p>
+</blockquote>
 
 </div>
 </div>
@@ -15604,7 +15573,7 @@ python-api-covid19-pandas.ipynb  Untitled1.ipynb
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Guardar-la-imagen">Guardar la imagen<a class="anchor-link" href="#Guardar-la-imagen">&#182;</a></h3><p>Usamos el comando <em>import matplotlib.pyplot as plt</em> para guardar la imagen. Importamos por ello la libreria matplotlib con la que nos permite ver los fatos en Jupyter.</p>
+<h3 id="Guardar-la-imagen">Guardar la imagen<a class="anchor-link" href="#Guardar-la-imagen">&#182;</a></h3><p>Usamos el comando <code>import matplotlib.pyplot as plt</code> para guardar la imagen. Importamos por ello la libreria matplotlib con la que nos permite ver los fatos en Jupyter.</p>
 
 </div>
 </div>
@@ -15614,9 +15583,7 @@ python-api-covid19-pandas.ipynb  Untitled1.ipynb
 <div class="prompt input_prompt">In&nbsp;[50]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="n">vs</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;esvsti.png&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">dsw</span>
 </pre></div>
 
     </div>
@@ -15649,7 +15616,7 @@ python-api-covid19-pandas.ipynb  Untitled1.ipynb
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="&#191;D&#243;nde-est&#225;-guardado?">&#191;D&#243;nde est&#225; guardado?<a class="anchor-link" href="#&#191;D&#243;nde-est&#225;-guardado?">&#182;</a></h3><p>Para ver donde están guardadas las cosas, o simplemente si se nos han guardado bien utilizaremos el comando ls, para listar lo que tenemos</p>
+<h3 id="&#191;D&#243;nde-est&#225;-guardado?">&#191;D&#243;nde est&#225; guardado?<a class="anchor-link" href="#&#191;D&#243;nde-est&#225;-guardado?">&#182;</a></h3><p>Para ver donde están guardadas las cosas, o simplemente si se nos han guardado bien utilizaremos el comando <code>!ls</code>, para listar lo que tenemos</p>
 
 </div>
 </div>
