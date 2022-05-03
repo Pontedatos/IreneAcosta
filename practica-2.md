@@ -1,5 +1,5 @@
 # PRÁCTICA 2ª – Periodismo de Datos 2022
-## Las vacunas como grandes
+## Las vacunas como las grandes salvadoras de la pandemia 
 ## En el mes de enero la incidencia acumulada de casos positivos de COVID-19 en España mostraba cifras abrumadoras, alcanzando un pico de 3.418 casos en esta sexta ola. No obstante, la presión hospitalaria se mantuvo y las muertes por coronavirus no alcanzaron la tasa por casos positivos que en otras
 
 ### *Por Irene Acosta Huesca*
