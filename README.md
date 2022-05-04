@@ -33,6 +33,8 @@ La práctica cuatro ha sido la penúltima realizada en el curso. En esta se pued
 
 - [practica-4.html](https://github.com/Pontedatos/IreneAcosta/blob/master/practica-4.html)
 - [practica-4.ipynb](https://github.com/Pontedatos/IreneAcosta/blob/master/practica-4.ipynb)
+
+## Trabajos de recopilación final 
  
 ### Metodología llevada a cabo para la realización del trabajo final 
 
