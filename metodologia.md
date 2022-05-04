@@ -1,6 +1,6 @@
 # Metodología de la práctica final 
 
-## Pasos realizados para la realización de la práctica
+## Pasos ejecutados para la realización de la práctica
 
 Para realizar la práctica final debíamos compilar todos los trabajos realizados a lo largo del curso en un mismo repositorio. Este nuevo repositorio tenía que estar dentro de la organización de Github Pontedatos, a la que fui añadida por el profesor. En ella tuve que crear el repositorio IreneAcosta a través de la pestaña “New repository” en la que puse mi nombre y en la pestaña “owner” seleccioné “Pontedatos”, esto significa que el profesor es dueño del repositorio y aparece así en su organización.
 
