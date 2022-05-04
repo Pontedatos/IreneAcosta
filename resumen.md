@@ -30,7 +30,7 @@ ca-certificates-letsencrypt, nano y openssl.
 Tras instalar nuestro programa de emulación de la terminal, Ubuntu en mi caso, realizamos unas configuraciones para facilitar el uso de la misma. Entre las primeras acciones realizadas, y una de las más importantes para agilizar los procesos, creamos un alias para crear un acceso directo a una carpeta sin tener que escribir y buscar toda la ruta.
 Primero, nombramos este alias como `micasa` para que nos lleve a la ruta deseada en mi caso, `cd/mnt/c/users/ireac/desktop/datos/github`,  debemos escribir el siguiente comando para denominarlo así: `micasa = “cd/mnt/c/users/ireac/desktop/datos/github”`. 
 
-El siguiente paso fue ejecutar el comando `echo `”alias micasa = ‘cd/mnt/c/users/ireac/desktop/datos/github’ ”`, este comando solo lo que hace es imprimir el mismo texto. A continuación,  configuramos la variable de entorno home,  modificando los archivos de configuración de la shell (que como veremos más adelante en nuestro caso usamos bash). Por ello crearemos un archivo en `.bashrc`, es importante mecionar que a través del comando `>>` en sell significa la salida de un comando o programa que es dirigido a uno nuevo, se escriben dos signos de mayor porque agrega lo nuevo al final. El comando final para poder crear nuestro alias será:  `echo `”alias micasa = ‘cd/mnt/c/users/ireac/desktop/datos/github’ ” >>$HOME/.bashrc`. 
+El siguiente paso fue ejecutar el comando `echo '"alias micasa = ‘cd/mnt/c/users/ireac/desktop/datos/github'"`, este comando solo lo que hace es imprimir el mismo texto. A continuación,  configuramos la variable de entorno home,  modificando los archivos de configuración de la shell (que como veremos más adelante en nuestro caso usamos bash). Por ello crearemos un archivo en `.bashrc`, es importante mecionar que a través del comando `>>` en sell significa la salida de un comando o programa que es dirigido a uno nuevo, se escriben dos signos de mayor porque agrega lo nuevo al final. El comando final para poder crear nuestro alias será:  `echo `”alias micasa = ‘cd/mnt/c/users/ireac/desktop/datos/github’ ” >>$HOME/.bashrc`. 
  
 Para comprobar que ha funcionado correctamente y si escribimos micasa, nos lleva a la carpeta,  utilizamos el comando `cat` (es una forma con la que mostrar el contenido de un archivo en la línea de comando) por ello si escribimos `cat>>$HOME/.bashrc`  podremos ver el archivo al final.  En mi caso estaba bien hecho, pero si lo hubiera escrito mal se edita y corrige a través del comando: `nano $HOME/.bashrc` . 
 
@@ -101,12 +101,12 @@ Aunque ya se han mostrado algunos de los comandos utilizados para la instalació
 - `env` = visualizamos con este comando todas las variables de entorno. Al ser tantas debemos escribir `env | less` para ver de manera más asequible este enorme listado. 
 - `nano` = se abre con el  programa de edición de texto nano que nos permite crear o editar los textos 
 - Comandos Git = aunque muchos se han explicado con anterioridad, en este punto detallamos algunos nuevos y recordamos el resto. 
-- - `git clone` = comando con el que clonamos un repositorio remoto en nuestro directorio local.
-- -  `git config` = con este comando definimos los valores de configuración de git.Como hemos visto anteriormente: `git config --global user.name`;  `git config --global user.email`;  `git config --global set-editor nano`.
-- -  `git status` = comando que nos muestra el estado del directorio de trabajo y del área de entorno. Nos permite ver los cambios que se han realizado, los que se han reparado o no, en los que Git no puede vincular etc. 
-- -  `git add “nombre-archivo”` o `git add .` = este comando nos permite añadir los cambios del directorio al entorno de ensayo, es decir con este comando le dices a Git las actualizaciones que quieres realizar. A través del argumento `.` añades todos los nuevos archivos, cambios etc. 
-- -  `git commit -m “lo que comiteamos” ` o `git commit .` = con este comando realizamos el commit es decir el cambio que hemos realizado se verá con esta acción en GitHub. A través del argumento `.` añades todos los nuevos archivos, cambios etc. 
-- -  `git push` =  se usa este comando para cargar el contenido del repositorio local al repositorio remoto de Github (en nuestro caso) . Este paso es el último que realizaremos para actualizar los cambios que veíamos en `Git Status`.
-- -   `git pull` =  permite actualizar los contenidos de los repositorios. 
-- - `git remote -v`
+-- `git clone` = comando con el que clonamos un repositorio remoto en nuestro directorio local.
+--  `git config` = con este comando definimos los valores de configuración de git.Como hemos visto anteriormente: `git config --global user.name`;  `git config --global user.email`;  `git config --global set-editor nano`.
+--  `git status` = comando que nos muestra el estado del directorio de trabajo y del área de entorno. Nos permite ver los cambios que se han realizado, los que se han reparado o no, en los que Git no puede vincular etc. 
+--  `git add “nombre-archivo”` o `git add .` = este comando nos permite añadir los cambios del directorio al entorno de ensayo, es decir con este comando le dices a Git las actualizaciones que quieres realizar. A través del argumento `.` añades todos los nuevos archivos, cambios etc. 
+--  `git commit -m “lo que comiteamos” ` o `git commit .` = con este comando realizamos el commit es decir el cambio que hemos realizado se verá con esta acción en GitHub. A través del argumento `.` añades todos los nuevos archivos, cambios etc. 
+--  `git push` =  se usa este comando para cargar el contenido del repositorio local al repositorio remoto de Github (en nuestro caso) . Este paso es el último que realizaremos para actualizar los cambios que veíamos en `Git Status`.
+--   `git pull` =  permite actualizar los contenidos de los repositorios. 
+-- `git remote -v`
 
