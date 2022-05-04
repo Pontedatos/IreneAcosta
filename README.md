@@ -1,6 +1,6 @@
 # Prácticas realizadas en la asignatura de Periodismo de Datos
 
-## En este repositorio se reúnen todas las prácticas realizadas por la alumna de Periodismo de Datos, Irene Acosta.
+> En este repositorio se reúnen todas las prácticas realizadas por la alumna de Periodismo de Datos, Irene Acosta.
 
 ## Práctica 1 
 
