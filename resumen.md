@@ -100,13 +100,13 @@ Aunque ya se han mostrado algunos de los comandos utilizados para la instalació
 - `echo` = la terminal con este comando nos lo devuelva un texto. Por ejemplo, si queremos saber cuál es nuestra variable de entorno home debemos poner `echo $HOME`. 
 - `env` = visualizamos con este comando todas las variables de entorno. Al ser tantas debemos escribir `env | less` para ver de manera más asequible este enorme listado. 
 - `nano` = se abre con el  programa de edición de texto nano que nos permite crear o editar los textos 
-- Comandos Git = aunque muchos se han explicado con anterioridad, en este punto detallamos algunos nuevos y recordamos el resto. 
--- `git clone` = comando con el que clonamos un repositorio remoto en nuestro directorio local.
---  `git config` = con este comando definimos los valores de configuración de git.Como hemos visto anteriormente: `git config --global user.name`;  `git config --global user.email`;  `git config --global set-editor nano`.
---  `git status` = comando que nos muestra el estado del directorio de trabajo y del área de entorno. Nos permite ver los cambios que se han realizado, los que se han reparado o no, en los que Git no puede vincular etc. 
---  `git add “nombre-archivo”` o `git add .` = este comando nos permite añadir los cambios del directorio al entorno de ensayo, es decir con este comando le dices a Git las actualizaciones que quieres realizar. A través del argumento `.` añades todos los nuevos archivos, cambios etc. 
---  `git commit -m “lo que comiteamos” ` o `git commit .` = con este comando realizamos el commit es decir el cambio que hemos realizado se verá con esta acción en GitHub. A través del argumento `.` añades todos los nuevos archivos, cambios etc. 
---  `git push` =  se usa este comando para cargar el contenido del repositorio local al repositorio remoto de Github (en nuestro caso) . Este paso es el último que realizaremos para actualizar los cambios que veíamos en `Git Status`.
---   `git pull` =  permite actualizar los contenidos de los repositorios. 
--- `git remote -v`
+**Comandos Git = aunque muchos se han explicado con anterioridad, en este punto detallamos algunos nuevos y recordamos el resto.** 
+- `git clone` = comando con el que clonamos un repositorio remoto en nuestro directorio local.
+- `git config` = con este comando definimos los valores de configuración de git.Como hemos visto anteriormente: `git config --global user.name`;  `git config --global user.email`;  `git config --global set-editor nano`.
+- `git status` = comando que nos muestra el estado del directorio de trabajo y del área de entorno. Nos permite ver los cambios que se han realizado, los que se han reparado o no, en los que Git no puede vincular etc. 
+- `git add “nombre-archivo”` o `git add .` = este comando nos permite añadir los cambios del directorio al entorno de ensayo, es decir con este comando le dices a Git las actualizaciones que quieres realizar. A través del argumento `.` añades todos los nuevos archivos, cambios etc. 
+- `git commit -m “lo que comiteamos” ` o `git commit .` = con este comando realizamos el commit es decir el cambio que hemos realizado se verá con esta acción en GitHub. A través del argumento `.` añades todos los nuevos archivos, cambios etc. 
+- `git push` =  se usa este comando para cargar el contenido del repositorio local al repositorio remoto de Github (en nuestro caso) . Este paso es el último que realizaremos para actualizar los cambios que veíamos en `Git Status`.
+- `git pull` =  permite actualizar los contenidos de los repositorios. 
+- `git remote -v`
 
