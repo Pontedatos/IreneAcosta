@@ -2,7 +2,7 @@
 
 ## En este repositorio se reúnen todas las prácticas realizadas por la alumna de Periodismo de Datos, Irene Acosta.
 
-###Práctica 1 
+## Práctica 1 
 
 En esta primera práctica realizada en el curso se realizaron dos comentarios diferentes redactados en Markdown en el repositorio propio de Github. Un primer comentario sobre un [estudio que comprendía una visualización de datos](https://trescaproject.eu/2021/10/07/are-social-media-harmful-yes-say-most-europeans-but-its-complicated/) realizado por el proyecto  [TRESCA](https://trescaproject.eu) y un comentario de libre elección. En este caso, escogí realizar un comentario analizando la web [Live Universal Awareness Map ("Liveuamap")](https://me.liveuamap.com/welcome).
 
@@ -29,8 +29,20 @@ Esta práctica consistió en compilación de los "notebooks" "barchart" y "api-p
 
 ## Práctica 4
 
-La práctica cuatro ha sido la penúltima realizada en el curso. En esta se puede ver el notebook realizado a través de Jupyter aplicando lo aprendido en las clases, actualizando los conocimientos y las prácticas de la asignatura de Periodismo de Datos. Para realizar la tarea debíamos escoger unos datos de un portal web de datos abiertos, en mi caso escogí el portal web datos.gob.es, una iniciativa de datos abiertos del Gobierno de España. Al igual que en la práctica 3, en esta debíamos realizar un archivo denominado [practica-4.md](https://github.com/Pontedatos/IreneAcosta/blob/master/practica-4.md) en se detalla lo realizado, los enlaces a las webs de donde se han obtenido los datos y la explicación del desarrollo de los mismos. 
+La práctica cuatro ha sido la penúltima realizada en el curso. En esta se puede ver el notebook realizado a través de Jupyter aplicando lo aprendido en las clases, actualizando los conocimientos y las prácticas de la asignatura de Periodismo de Datos. Para realizar la tarea debíamos escoger unos datos de un portal web de datos abiertos, en mi caso escogí el portal web datos.gob.es, una iniciativa de datos abiertos del Gobierno de España. Al igual que en la práctica 3, en esta debíamos realizar un archivo denominado [practica-4.md](https://github.com/Pontedatos/IreneAcosta/blob/master/practica-4.md) en se detalla lo realizado, los enlaces a las webs de donde se han obtenido los datos y la explicación del desarrollo de los mismos.
 
-## Trabajos de recopilación final 
+- [practica-4.html](https://github.com/Pontedatos/IreneAcosta/blob/master/practica-4.html)
+- [practica-4.ipynb](https://github.com/Pontedatos/IreneAcosta/blob/master/practica-4.ipynb)
+ 
+### Metodología llevada a cabo para la realización del trabajo final 
 
-- [Metodología de la práctica final](https://github.com/Pontedatos/IreneAcosta/blob/master/metodologia.md) 
+Enlace que lleva a la explicación de cómo se ha realizado la práctica final, todos los pasos hasta la creación de una web. 
+
+- [Metodologías ](https://github.com/Pontedatos/IreneAcosta/blob/master/metodologia.md)
+
+### Contenidos aprendidos en la asignatura
+
+En el siguiente apartado se muestra el link donde documenta de manera resumida el proceso de aprendizaje de los contenidos explicados a lo largo de la asignatura de Periodismo de Datos.
+
+- [Documentación del proceso de aprendizaje en clase](https://github.com/Pontedatos/IreneAcosta/blob/master/resumen.md)
+
