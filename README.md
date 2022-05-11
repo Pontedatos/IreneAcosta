@@ -8,7 +8,7 @@ En esta primera práctica realizada en el curso se realizaron dos comentarios di
 
 - [Comentario TRESCA](https://github.com/Pontedatos/IreneAcosta/blob/master/practica-1-tresca.md)
 
-- [Comentario Live Universal Awareness Map](https://github.com/Pontedatos/IreneAcosta/blob/master/practica-1-libre.md)
+- [Comentario Live Universal Awareness Map](practica-1-libre.md)
 
 ## Práctica 2
 
