@@ -19,5 +19,5 @@ En mi caso no me dio ningún error estos pasos, no obstante, para ver que los pa
 
 ### Creación de una página web a través de Github 
 
-Como explicó el profesor en clase se utiliza la funcionalidad "Pages" de Github con la que se puede crear web con el contenido de nuestro repositorio. Para activar esta opción de "Pages" a través de la url:  https://github.com/Pontedatos/nombre-repositorio/settings/pages. En esta página seleccionamos la opción “master” (esta es la que me salía a mí, aunque el profesor indica que debe ser “main” investigué y es lo mismo), después selecciono carpeta /root/.  Así Github crea una web cuya  estructura será la de mi repositorio, en el que el archivo README.md Github lo convierte Github en index.html. 
+Como explicó el profesor en clase se utiliza la funcionalidad "Pages" de Github con la que se puede crear web con el contenido de nuestro repositorio. Para activar esta opción de "Pages" a través de la url:  https://github.com/Pontedatos/nombre-repositorio/settings/pages. En esta página seleccionamos la opción “master” (esta es la que me salía a mí, aunque el profesor indica que debe ser “main” investigué y es lo mismo), después selecciono carpeta /root/.  Así Github crea una web cuya  estructura será la de mi repositorio, en el que el archivo README.md Github lo convierte en index.html. 
 
