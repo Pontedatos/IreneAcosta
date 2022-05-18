@@ -1,8 +1,8 @@
-# Examen Final Periodismo de Datos 
+# Examen final de Periodismo de Datos 
 
 ## Realizado por: Irene Acosta Huesca. Grupo 63. 
 
-En el siguiente archivo se presenta el examen final realizado por la alumna de Periodismo de Datos, Irene Acosta Huesca, perteneciente al grupo 63, el día 18 de mayo del 2022. 
+En el siguiente archivo se presenta el examen final teórico realizado por la alumna de Periodismo de Datos, Irene Acosta Huesca, perteneciente al grupo 63, el día 18 de mayo del 2022. 
 
 ## Las siete preguntas que van dentro del bloque A
 
